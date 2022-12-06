@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+    
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+
+.container{
+    max-width: 1170px;
+    margin: 0  auto;
+}
+
+.navigation{
+    margin-top: 40px;
+    
+}
+
+.menu{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.H1Title{
+    margin-top: 84px;
+}
+
+.main-description{
+    margin-top: 17px;
+}
+
+.buttons{
+    margin-top: 37px;
+    margin-bottom: 162px;
+}
+
+.button1{
+    width: 140px;
+    height: 50px;
+    padding: 15px, 35px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+}
+
+.button2{
+    width: 90px;
+    height: 19px;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+
+.BodyImg{
+    margin-top: 82px;
+    margin-bottom: 162px;
+}
+
+/* в footer`е блок logos сделал padding`ами, поэтому логотипы футера без отступов сверху и снизу*/
+.logos{
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
