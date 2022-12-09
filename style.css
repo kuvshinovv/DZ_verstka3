@@ -1,3 +1,18 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(./font/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(./font/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url(./font/Gilroy-SemiBold.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -15,61 +30,115 @@ img {
 	max-width: 100%;
 }
 
-
 .container{
     max-width: 1170px;
     margin: 0  auto;
 }
 
-.navigation{
+header{
     margin-top: 40px;
 }
 
-.menu{
-    margin-top: 12px;
-    margin-bottom: 12px;
+.navigation{
+    display: flex;
+    justify-content: space-between;
 }
 
-.H1Title{
+.menu{
+    display: flex;
+    gap: 40px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    align-items: center;
+    border: none;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    line-height: 16px;
+    color: #F25822;
+}
+
+.menuItem{
+    color: #000000
+}
+
+.select{
+    border: none;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    line-height: 16px;
+    /* color: #F25822; */
+     
+}
+.content{
+    display: flex;
+    gap: 41px;
     margin-top: 84px;
 }
 
+.H1Title{
+    width: 522px;
+    
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+
+color: #000000;
+}
+
 .main-description{
+    width: 466px;
     margin-top: 17px;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+
+color: #888888;
 }
 
 .buttons{
+    display: flex;
+    gap: 72px;
     margin-top: 37px;
     margin-bottom: 162px;
 }
 
 .button1{
+    font-family: 'Gilroy-Bold';
     width: 140px;
     height: 50px;
     padding: 15px, 35px;
     background: #F25822;
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     border-radius: 50px;
+    border: none;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
 }
 
 .button2{
     width: 90px;
     height: 19px;
+    
+    border: none;
+    background: none;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    
     font-family: 'Gilroy-Bold';
     font-size: 15px;
     line-height: 18px;
     color: #AAAAAA;
-    margin-top: 15px;
-    margin-bottom: 16px;
+
+    
 }
 
-.bodyIMG{
-    margin-top: 82px;
-    margin-bottom: 162px;
-}
 
 /* в footer`е блок logos сделал padding`ами, поэтому логотипы футера без отступов сверху и снизу*/
 .logos{
+    display: flex;
+    justify-content: space-between;
     padding-top: 97px;
     padding-bottom: 96px;
 }
