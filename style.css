@@ -13,6 +13,11 @@
     src: url(./font/Gilroy-SemiBold.ttf);
 }
 
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(./font/Gilroy-Regular.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -130,8 +135,6 @@ color: #888888;
     font-size: 15px;
     line-height: 18px;
     color: #AAAAAA;
-
-    
 }
 
 
@@ -141,4 +144,232 @@ color: #888888;
     justify-content: space-between;
     padding-top: 97px;
     padding-bottom: 96px;
+}
+
+.gridmenu1{
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-auto-columns: auto;
+    gap: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}   
+
+.cardsingrid1{
+    width: 370px;
+    height: 291px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+
+}
+
+.cardsingrid2{
+    width: 370px;
+    height: 291px;
+    background: #FFFFFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    
+}
+
+.cardsingrid3{
+    width: 370px;
+    height: 291px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.fonlogo1{
+    padding: 23px 21px 23px 21px; 
+    width: 70px;
+    height: 70px;
+    background: rgba(242, 88, 34, 0.25);
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.fonlogo2{
+    padding: 23px 22px 23px 22px; 
+    width: 70px;
+    height: 70px;
+    background: rgba(20, 146, 17, 0.28);
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.fonlogo2img{
+    margin: 1px 4px 1px 4px;
+}
+
+.fonlogo3{
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    position: relative;
+
+    padding: 23px 22px 23px 22px; 
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 205, 29, 0.24);
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.fonlogo3img1{
+    grid-column: 1 / span 15;
+    grid-row: 1 / span 15; 
+    z-index: 1; 
+    margin: 4px 2px; 
+}
+.fonlogo3img2{
+    grid-column: 5 / -1;
+    grid-row: 6; 
+ }
+ 
+ .titleh3{
+    width: 215px;
+    height: 30px;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 17px;
+ }
+
+ .ptext{
+    width: 310px;
+    height: 42px;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    margin-bottom: 25px;
+ }
+
+ .cardsbodycontainer{
+    display: flex;
+    background: #FAFAFA;
+ }
+
+ .bodymaintiles{
+    display: flex;
+    text-align: center;
+ 
+ }
+.cardsbodycontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto ; 
+    justify-items: center;
+    gap: 30px;
+    background: #FAFAFA;
+    margin-bottom: 100px;
+    
+}
+
+.zagolovok{
+    display: flex;
+    align-content: center;
+    grid-column: span 3;
+    margin-top: 92px;
+    margin-bottom: 54px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cardsbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 370px;
+    height: 549px;
+    background: #FFFFFF;
+}
+.cardsbody2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 370px;
+    height: 549px;
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.h2bodytitle{
+    text-align: center;
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+    margin-bottom: 19px;
+}
+
+.pbody{
+    text-align: center;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 54px;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+}
+.pbodymaintitle{
+    text-align: center;
+    width: 682px;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+
+}
+
+.h3bodytitle{
+    margin-bottom: 22px;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.buttonbudy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none
+
+}
+
+.pbuttonbudy{
+    
+    font-family: 'Gilroy-Bold';
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.VectoButtonArrow{
+    width: 4px;
+    height: 8px;
+    margin-left: 6px;
+
 }
